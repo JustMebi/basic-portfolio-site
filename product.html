@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Page</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: whitesmoke; margin: 0; font-size: 20px">
+        Product Page
+      </h1>
+    </header>
+
+    <div class="product-page-layout">
+      <aside class="sidebar-links">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </aside>
+
+      <section class="product-content">
+        <h1>Sabilink Services</h1>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover-row">
+              <td>BootCamp</td>
+              <td>A 5-week program to learn the basics</td>
+              <td>$99</td>
+            </tr>
+            <tr class="hover-row">
+              <td>12-Month Traineeship</td>
+              <td>In-depth training on software development</td>
+              <td>$1000</td>
+            </tr>
+            <tr class="hover-row">
+              <td>WordPress Products</td>
+              <td>Building you the best web applications</td>
+              <td>$$$$$$</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="media-wrapper">
+          <h2>Media</h2>
+          <video id="promoVideo" controls>
+            <source src="Sample-Video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <p
+            id="videoMessage"
+            style="display: none; color: green; font-weight: 600"
+          >
+            Thanks for watching!
+          </p>
+
+          <audio id="promoAudio" controls>
+            <source src="sample-audio.mp3" type="audio/mpeg" />
+            Your browser does not support the audio tag.
+          </audio>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2025 Mebi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

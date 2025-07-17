@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h1 id="mainHeading">Basic HTML Website</h1>
+        <div class="side-by-side">
+          <img
+            src="back.jpg"
+            alt="Hiker staring at the sunset"
+            width="200"
+            height="200"
+          />
+          <p>
+            Welcome to my digital home—a space where I document my journey
+            through web development, design, and discovery. Here, you'll find
+            the milestones I've reached, the goals I'm working toward, and a
+            glimpse of the passion that fuels it all.
+          </p>
+        </div>
+      </section>
+      <div class="grid">
+        <section id="skills" class="skills">
+          <h2>My Skills</h2>
+          <ul class="skill-badges">
+            <li class="badge">💪🏼 HTML</li>
+            <li class="badge">💪🏼 CSS</li>
+            <li class="badge">🏋🏼 JavaScript</li>
+            <li class="badge">🏋🏼 React</li>
+            <li class="badge">🏋🏼 Figma</li>
+            <li class="badge">👶🏼 WordPress</li>
+          </ul>
+        </section>
+
+        <section id="projects" class="projects">
+          <h2>Projects</h2>
+          <div class="project-cards">
+            <div class="card">
+              <h3>Project 1</h3>
+              <p>Mockup of a Website (HTML only)</p>
+            </div>
+            <div class="card">
+              <h3>Project 2</h3>
+              <p>Practice Website Continued (CSS Included)</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="action">
+        <a href="contact.html" class="btn">Get in Touch</a>
+      </div>
+      <div class="action">
+        <button class="btn" id="welcomeBtn">Warm Welcome</button>
+        <p id="messageDisplay" style="margin-top: 1rem"></p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2025 Mebi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
